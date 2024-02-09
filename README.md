@@ -26,3 +26,14 @@ appSecret = "<your-app-secret>"
 msGraph_func.expiringAppRegSecret(thresholdDays=5)
 
 ```
+The function returns a list of dicts containing the app registration display name and the keyId for the secret that will expire under threshold given.
+
+
+```python
+[{'displayName': 'UserMgmtRO',
+  'keyId': '59435ba6-c444-4263-b197-077ddb53eaba'},
+ {'displayName': 'AzAppRegMonitor',
+  'keyId': 'daa4c177-c8d4-4e9b-8d22-9a4b58725270'}]
+
+```
+
